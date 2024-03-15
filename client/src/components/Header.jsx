@@ -63,8 +63,8 @@ const Header = () => {
             <Dropdown.Item>Sign out</Dropdown.Item>
           </Dropdown>
         ) : (
-          <Link to="/sign-in">
-            <Button gradientDuoTone="purpleToBlue">Sign In</Button>
+          <Link to="/sign-up">
+            <Button gradientDuoTone="purpleToBlue">Sign Up</Button>
           </Link>
         )}
         <Link to="/sign-in">
